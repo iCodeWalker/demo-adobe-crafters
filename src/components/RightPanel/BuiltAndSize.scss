@@ -1,0 +1,29 @@
+.circle-container {
+  width: 5rem;
+  height: 5rem;
+  padding: 0.5rem;
+  background-color: #ccc4c4;
+  border: 2px solid #ccc4c4ab;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(26, 26, 27);
+  text-align: center;
+  margin: 2rem;
+  transition: all ease-in-out 0.2s;
+  z-index: 10px;
+  box-shadow: -0.2px 5px 2px #1d1d1dd7;
+
+  &:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: -2px 5px 5px #1d1d1dd7;
+  }
+
+  &:active {
+    transform: translateY(2px);
+  }
+}
